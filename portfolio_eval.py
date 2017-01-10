@@ -61,52 +61,6 @@ f5.close()
 ###################################################
 # Portfolio of all 10 ETFs
 ###################################################
-f1 = open('total_1yr_return_1.txt', 'w')
-f2 = open('total_1yr_return_2.txt', 'w')
-f3 = open('total_1yr_return_3.txt', 'w')
-f4 = open('total_1yr_return_4.txt', 'w')
-f5 = open('total_1yr_return_5.txt', 'w')
-f6 = open('total_1yr_return_6.txt', 'w')
-f7 = open('total_1yr_return_7.txt', 'w')
-f8 = open('total_1yr_return_8.txt', 'w')
-f9 = open('total_1yr_return_9.txt', 'w')
-f10 = open('total_1yr_return_10.txt', 'w')
-f11 = open('total_1yr_return_11.txt', 'w')
-f12 = open('total_1yr_return_12.txt', 'w')
-f13 = open('total_1yr_return_13.txt', 'w')
-f14 = open('total_1yr_return_14.txt', 'w')
-f15 = open('total_1yr_return_15.txt', 'w')
-f1.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f2.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f3.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f4.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f5.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f6.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f7.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f8.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f9.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-         +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f10.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-          +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f11.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-          +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f12.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-          +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f13.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-          +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f14.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-          +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-f15.write("IVV"+'\t'+"IJH"+'\t'+"IJR"+'\t'+"EFA"+'\t'+"EEM"+'\t'+"IYR"+'\t'+"IFGL"+'\t'+"AGG"+'\t'+"MUB"
-          +'\t'+"IAU"+'\t'+"Avg_return_1yr"+'\t'+"Sigma_1yr"+'\n')
-
 sharpe_max = [0] * 15
 w_ivv_opt = [0] * 15
 w_ijh_opt = [0] * 15
